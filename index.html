@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gunjan - Data & AI Analyst</title>
+  <style>
+       /* Reset some default styles */
+    body, h1, h2, h3, p, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    /* Basic styles for layout */
+    header, footer, section {
+      padding: 20px;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    section {
+      border-bottom: 1px solid #ddd;
+    }
+    /* Project cards */
+    .project-card {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    /* Contact links */
+    .contact-links a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #333;
+      text-decoration: none;
+    }
+    /* Responsive layout */
+    @media screen and (max-width: 768px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+  </header>
+
+  <section id="About">
+    <h2>About Me</h2>
+    <p>
+      Hi there! I'm Gunjan, a Data and AI Analyst with 2 years of work experience at Infosys Ltd.
+      My expertise lies in solving organizational problems using Data preprocessing, NLP, and Generative AI.
+      I've worked on Proof of Concepts (POCs) for various clients, and have created projects and demos using LLM and Azure.
+      I excel at solving AI problems across industries, ranging from technical software to lifestyle and marketing.
+    </p>
+  </section>
+
+  <section id="Projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Code Search</h3>
+      <p>Using LLM + NLP to create an advanced code search tool.</p>
+    </div>
+    <div class="project-card">
+      <h3>Code Management & Code Explain</h3>
+      <p>Utilizing LLM and Prompt Engineering for efficient code management and explanations.</p>
+    </div>
+    <div class="project-card">
+      <h3>Excel Explain</h3>
+      <p>Combining Excel Libraries with LLM to enhance Excel data explanations.</p>
+    </div>
+  </section>
+
+  <section id="Interests">
+    <h2>Interests</h2>
+    <ul>
+      <li>Data Science</li>
+      <li>Data Preprocessing</li>
+      <li>Data Engineering</li>
+      <li>Prompt Engineering</li>
+      <li>Generative AI</li>
+      <li>ChatGPT</li>
+      <li>LLMs</li>
+      <li>DevOps</li>
+      <li>MLOps</li>
+    </ul>
+  </section>
+
+  <section id="Contact">
+    <h2>Contact Me</h2>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/gunjan0799/">LinkedIn</a>
+      <a href="https://github.com/gunjan0799">GitHub</a>
+      <a href="https://topmate.io/gunjanpreet">Topmate.io</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Gunjan. All rights reserved.</p>
+  </footer>
+
+  <script>
+     const projectCards = document.querySelectorAll('.project-card');
+    
+    projectCards.forEach(card => {
+      card.addEventListener('click', () => {
+        card.classList.toggle('expanded');
+      });
+    });
+  </script>
+</body>
+</html>
